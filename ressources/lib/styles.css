@@ -1,0 +1,262 @@
+/* --- Zones --- */
+
+/* Header */
+.header {
+	position: fixed;
+	justify-content: space-around;
+	align-items: center;
+	width: calc(100% - 8px);
+	/*height: 8vh;
+	min-height: 40px;
+	max-height: 60px;*/
+	background-color: rgba(125, 74, 243, 0.24);
+	backdrop-filter: blur(10px);
+	padding: 4px;
+}
+
+.header .title {
+	flex: 4 0 500px;
+	border-radius: 15px 5px 15px 5px;
+	width: 75%;
+	height: 80%;
+	background-color: rgba(10,10,10,0.75);
+	min-width: 200px;
+	margin: 6px;
+}
+
+.header .subcontainer {
+	flex: 1 1 150px;
+	justify-content: space-around;
+	/*outline: solid white 1px;*/
+}
+
+.header .item {
+	display: flex ;
+	justify-content: space-between; 
+	align-items: center; 
+	font-family: inherit;
+	flex: 0 2 120px; /* Positionning */
+	width: auto;
+	padding-top: 4px; /* Padding & Margin*/
+	margin-inline: 6px;
+	padding-bottom: 4px;
+	padding-inline: 8px;
+	border-radius: 9px 3px 9px 3px;
+	background-color: rgba(10,10,10,0.75); /* Color & outline */
+	/*outline: solid white 1px;*/
+}
+
+.header .item:hover {
+	background-color: rgba(80,10,10,0.75);
+}
+
+.header .item svg {
+	width: 20px;
+	height: 18px;
+	flex: 1 0 25px;
+	/*outline: solid white 1px;*/
+}
+
+.header .item p {
+	font-size: 16px;
+	font-family: inherit;
+	margin: 0;
+	text-align: center;
+	flex: 3 0 25px;
+	/*outline: solid white 1px;*/
+}
+
+.header .title h1 {
+	margin-top: auto;
+	font-size: 40px;
+	text-align: center;
+	width: 100%;
+	margin-bottom: auto;
+}
+
+.headerPlaceholder {
+	background-color: rgb(80, 4, 120);
+}
+
+/* Body & Main */
+
+body {
+	/*backdrop-filter: blur(5px); 
+	background-image: url(../../pastel\ leaf\ ai2\ copy.jpeg);*/
+	color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+	background-color: rgba(20,4,30);
+}
+
+main {
+    flex: 1;
+}
+
+/* Footer */
+
+.footer {
+	display: flex;
+	width: auto;
+	align-items: center;
+    /*text-align: center;*/
+	justify-content: space-between;
+    padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgba(30, 30, 30, 0.9);
+	color: white;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.footer .item {
+	background-color: rgba(20, 20, 20, 0.9);
+	padding:6px 12px 6px 12px;
+	margin: 0 0 4px 4px;
+	border-radius: 5px;
+	text-align: center;
+	flex: 0 1 200px;
+	/*width: 100%;*/
+}
+
+/* --- Containers --- */
+
+.container {
+	display: flex;
+	/*background-color: rgba(30, 30, 30, 0.9);*/
+	/*background-color: #5F43FF;*/
+	/*border-radius: 5px 5px 5px 5px;
+	margin: 2px;
+	border-style: solid;
+	border-width: 2px;
+	/*outline: 1px solid white;*/
+	/*border-collapse: collapse;*/
+}
+
+.paragraphbox {
+	box-shadow: 0px 8px 16px 0px rgb(255, 0, 0);
+	flex-grow: 0;
+	flex-shrink: 1;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: rgba(30, 30, 30, 0.9);
+} 
+
+.infobox {
+	box-shadow: 0px 8px 16px 0px rgb(255, 0, 0);
+	flex: 1 1 300px;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: rgba(30, 30, 30, 0.9);
+} 
+
+.infobox p {
+	margin: 0px;
+}
+
+.infobox h1 {
+	font-size: 25px;
+}
+
+.img {
+	flex-direction: column;
+	box-shadow: 0px 8px 16px 0px rgb(255, 0, 0);
+	border-radius: 5px 5px 5px 5px;
+	margin: 1px;
+	border-style: solid;
+	border-width: 2px;
+} 
+
+.img img {
+	width: 100%;
+}
+
+.img div {
+	justify-content: center;
+	background-color: rgba(30, 30, 30, 0.9);
+	border-radius: 0 0 5px 5px;
+	padding: 5px;
+}
+
+/* Others */
+
+.noMargin {
+	margin: 0px;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-center {
+	justify-content: center;
+}
+
+.flex-start {
+	justify-content: flex-start;
+}
+
+.flex-end {
+	justify-content: flex-end;
+	
+}
+
+/* Dropdown menu elements */
+
+.header .dropmnitem {
+	padding: 0;
+}
+
+.header .dropmnitem:hover {
+	border-radius: 9px 9px 0 0;
+}
+
+.dropdwnmn {
+	display: block;
+	padding: 0;
+	width: 100%;
+	position: relative;
+}
+
+.dropdwnbt {
+	justify-content: space-between;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-inline: 8px;
+	width: auto;
+	height: auto;
+}
+.dropdwnbt:hover {
+	border-radius: 9px 9px 0 0;
+}
+.dropdwnmn .content {
+	display: none;
+	flex-direction: column;
+	position: absolute;
+	width: inherit;
+	z-index: 1 ;
+	background-color: rgba(80,10,10,0.95);
+	border-radius: 0 0 9px 9px;
+	box-shadow: 0px 8px 16px 0px rgb(255, 0, 0);
+}
+
+.dropdwnmn .content * {
+	display: flex;
+	margin: 5px;
+	text-decoration: none;
+	color: inherit;
+}
+
+.dropdwnmn:hover .content {
+	display: flex;
+}
+
+

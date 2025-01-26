@@ -1,0 +1,65 @@
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #425238d3;
+}
+
+.headerPlaceholder {
+    background-color: rgba(11, 210, 84, 0.347);
+    box-shadow: 0px 8px 16px 0px #3C5639;
+}
+
+.header .title {
+	background-color: rgba(162, 103, 50, 0.619);
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: none ;
+}
+
+.header .item {
+    background-color: rgba(38, 36, 39, 0.75);
+}
+
+.header .item:hover {
+    background-color: rgba(168, 80, 46, 0.746);
+}
+
+body {
+    background-color: rgb(81, 96, 37);
+}
+
+.footer {
+    box-shadow: 0px -5px 16px 3px rgba(30, 30, 30, 0.9);
+    background-color: rgba(30, 30, 30, 0.9);
+}
+
+.footer .item {
+	background-color: rgba(20, 20, 20, 0.9); 
+}
+
+.paragraphbox {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	box-shadow: 8px 8px 16px 0px rgba(119, 64, 64, 0.687);
+    background-color: rgba(60, 60, 30, 0.9);
+}
+
+.infobox {
+	box-shadow: 8px 8px 16px 0px rgba(119, 64, 64, 0.687);
+	background-color: rgba(40, 20, 30, 0.9);
+}
+
+/*.container {
+    outline: solid white 1px;
+}*/
+
+.img {
+	box-shadow: 8px 8px 16px 0px rgba(119, 64, 64, 0.687);
+}
+
+.img div {
+	background-color: rgba(30, 30, 30, 0.9); 
+}
+
+.dropdwnmn .content {
+    box-shadow: 8px 8px 16px 0px rgba(101, 101, 101, 0.687); 
+    background-color: rgba(168, 80, 46, 0.95);
+}
