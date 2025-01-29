@@ -176,6 +176,7 @@ main {
 }
 
 .img div {
+	flex-grow: 1;
 	justify-content: center;
 	background-color: rgba(30, 30, 30, 0.9);
 	border-radius: 0 0 5px 5px;
