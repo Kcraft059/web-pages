@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Flex page</title>
+        <title>Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="color-scheme" content="light dark">
         <meta charset="utf-8">
         <script type="text/javascript" src="./ressources/lib/script.js"></script>
-		<link rel="stylesheet" href="./ressources/lib/styles.css"/>
-		<link rel="stylesheet" href="./pagestyle.css"/>
+        <link rel="stylesheet" href="./ressources/lib/styles.css"/>
+        <link rel="stylesheet" href="./pagestyle.css"/>
     </head>
     <body>
         <main>
@@ -55,82 +55,108 @@
                         <svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M17 9c0-1.381-.56-2.631-1.464-3.535C14.631 4.56 13.381 4 12 4s-2.631.56-3.536 1.465C7.56 6.369 7 7.619 7 9s.56 2.631 1.464 3.535C9.369 13.44 10.619 14 12 14s2.631-.56 3.536-1.465A4.98 4.98 0 0 0 17 9M6 19c0 1 2.25 2 6 2c3.518 0 6-1 6-2c0-2-2.354-4-6-4c-3.75 0-6 2-6 4"/></svg>
                         <p><a href="https://www.github.com/Kcraft059">Kcraft059</a></p>
                     </div>
-                    <!--button class="container item" style="border-width: 0;" onclick="location.href='./';">
+                    <!--button class="container item" style="border-width: 0;" onclick="location.href='./';"> Disabled because we're already on the page
                         <svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M12 3s-6.186 5.34-9.643 8.232A1.04 1.04 0 0 0 2 12a1 1 0 0 0 1 1h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a1 1 0 0 0 1-1a.98.98 0 0 0-.383-.768C18.184 8.34 12 3 12 3"/></svg>
                         <p>Home</p>
                     </button-->
                 </div>
             </div>
             <div id="headerPlaceholder" class="container headerPlaceholder"></div> <!--Keep Space for header-->
-            
             <div class="container" style="height: 15px;"></div>
 
-            <div class="container" style="margin: 8px;"> <!--Main content container 1-->
+            <div class="container" style="width: 100%;align-items: flex-start;">
 
-                <div class="container flex-column" style=" flex: 1 2 500px;">
-                    <div class="container flex-column img">
-                        <img alt="Image" src="pastel leaf ai2 copy.jpeg">
-                        <div class="container">
-                            <p class="noMargin">Consequat excepteur eu elit exercitation sint</p>
-                        </div>
-                    </div>
-                    <div class="container flex-row">
-                        <div class="container infobox flex-column" style="max-width: 300px;">
-                            <h1><u>Eu enim excepteur :</u></h1>
-                            <p>aliqua ullamco consequat officia in occaecat cillum id est Lorem Lorem aliquip commodo nostrud nisi laboris minim tempor exercitation ipsum Lorem aliqua labore cupidatat fugiat</p>
-                        </div>
-                        <div class="container infobox flex-column" style="max-width: 300px;">
-                            <h1><u>Elit voluptate :</u></h1>
-                            <p>proident eiusmod occaecat laboris consequat ipsum pariatur labore cupidatat do aliqua qui reprehenderit sint id sint reprehenderit occaecat ea aute elit duis ullamco aliqua aliqua</p>
-                        </div>
+                <div class="container" style="flex: 1 0 150px"> <!--Right content-->
+                    <div class="container infobox flex-column" style="margin: 40px;background-color:#864316b0;">
+                        <h1 style="align-self: center;"><u>Information Importante: </u></h1>
+                        <p>Ce site est encore grandement à l'état de projet, l'interface n'est pas utilisable sous mobile et des bugs sont présents.</p>
+                        <p>Des mises à jours sont prévues pour plus de compatibilité.</p>
                     </div>
                 </div>
 
-                <div class="container" style="width: 10px;"></div>
-
-                <div class="container flex-column" style="flex: 1.25 1 700px;">
-                    <div class="container flex-column paragraphbox" style="flex-basis: 50px">
-                        <h1><u>This is the base page of the site's structure</u></h1>
+                <div class="container flex-column" style="align-items: center; flex: 3 3 200px;">  <!--Center article-->
+                    <div class="container paragraphbox" style="flex:0 1;justify-content: center;">
+                        <h1>Bienvenue sur notre site !</h1>
                     </div>
-                    <div class="container">
-                        <div class="container paragraphbox" style="flex: 2 1 300px">
-                            <p>consectetur aliquip aliqua elit proident sint officia proident cupidatat velit pariatur Lorem occaecat mollit tempor veniam sunt non incididunt nulla laboris cupidatat sunt velit exercitation proident qui nostrud pariatur ipsum excepteur esse eiusmod cupidatat</p>
-                        </div>
-                        <div class="container flex-column" style="flex: 1 1 300px;">
-                            <div class="container img" style="flex-grow: 0;">
-                                <img alt="Image" src="pastel leaf ai2 copy.jpeg">
-                                <div class="container">
-                                    <p class="noMargin">Consequat excepteur eu elit exercitation sint</p>
+                    <div class="container paragraphbox flex-column" style="align-items: center;">
+                        <h2>Comment ca marche ?</h2>
+                        
+                        <div class="container flex-row" style="flex: 1 1 100px;">
+                            <div class="container flex-column" style="flex: 2 1 10px;padding: 10px;">
+
+                                <div class="container flex-column" style="flex: 2 1 70px;">
+                                    <p class="noMargin">Chaque fruit répertorié sur le site a sa page spécifique. Elle se présenteras globalement toujours de la meme manière avec les infos essentielles tel que: 
+                                        <ul>
+                                            <li>Des infos générales</li>
+                                            <li>Ses apports</li>
+                                            <li>Sa zone de pousse</li>
+                                            <li>Sa saison de pousse</li>
+                                        </ul>
+                                        Ainsi vous n'avez qu'à trouver le fruits sur lequel vous souhaitez vous renseigner puis, vous aurez toutes les infos nécéssaires.
+                                    </p>
+                                </div>
+                                <div class="container paragraphbox" style="flex: 1 2 30px;justify-content: center; align-items: center; background-color: #213E3F;">
+                                    <div class="container" style="flex: 5 1 200px;">
+                                        <p>Pour naviguer entre les pages vous pouvez utliser l'onglet pages de la barre de menu : </p>
+                                    </div>
+                                    <div class="container headeritem dropmnitem" style="height: 25px;flex: 0 0 120px">
+                                        <div class="dropdwnmn">
+                                            <div class="container dropdwnbt">
+                                                <svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M19 17H5c-1.103 0-2 .897-2 2s.897 2 2 2h14c1.103 0 2-.897 2-2s-.897-2-2-2m0-7H5c-1.103 0-2 .897-2 2s.897 2 2 2h14c1.103 0 2-.897 2-2s-.897-2-2-2m0-7H5c-1.103 0-2 .897-2 2s.897 2 2 2h14c1.103 0 2-.897 2-2s-.897-2-2-2"/></svg>
+                                                <p>Pages</p>
+                                            </div>
+                                            <div class="content">
+                                                <a href="../../fruit/peche/">Peche</a>
+                                                <a href="../../fruit/cerise/">Cerise</a>
+                                                <a href="../../fruit/papaye/">Papaye</a>
+                                                <a href="../../fruit/quetsche/">Quetsche</a>
+                                                <a href="../../fruit/kiwi/">Kiwi</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container flex-column" style="flex: 1 2 10px; justify-content: center;">
+                                <div class="container img" style="flex: 0 0 0">
+                                    <img src="./ressources/images/page.png" alt="Site Page Image">
+                                    <div class="container">
+                                        <p class="noMargin">Les pages se présentent sous cette forme</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="container flex-column paragraphbox" style="flex-basis: 170px">
-                        <p>nulla ex minim deserunt officia reprehenderit dolore esse aute adipisicing amet adipisicing in qui pariatur dolore est fugiat qui quis pariatur enim nostrud sunt magna nisi excepteur esse ut esse nisi reprehenderit magna qui nisi</p>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                        
+                    <div class="container paragraphbox flex-column" style="align-items: center;">
+                        <h2><u>Notre Démarche</u></h2>
+                        <p>C'est dans l'optique d'une meilleure alimentation que l'idée ce ce site nous est venue, notre objectif est simple:<br><h3>Nous souhaitons que les gens puissent s'informer rapidement, sur les fruits, leur saison de récolte, etc…</h3><br>Ainsi nous avons développé ce site et l'avons basé sur des informations sures et vérifées pour fournir des informations de qualité a nos utilisateurs.</p>
                     </div>
-                    
-                    <div class="container flex-column paragraphbox"  style="flex-basis: 170px">
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                    </div>
-
                 </div>
+
+                <div class="container" style="flex: 1 0 150px"> <!--Left content-->
+                    <div class="container infobox flex-column" style="margin: 40px; position: fixed;">
+                        <h1><u>Faq :</u></h1>
+                        <h2>Y'aura t'il une évolution du site ?</h2>
+                        <p>Oui le site est encore un début de projet qui voit le jours et nous serions trés heureux d'étendre notre liste de fruits.</p>
+                        <h2>L'interface évoluera t'elle ?</h2>
+                        <p>Peut-être, Peut-être pas… cela dépends de la motivation des équipe du groupe, pour le moment notre objectif est plus focalisé sur les informations du site.</p>
+                        <h2>Pourquoi n'y a t'il pas de sélecteur de période de pousse ?</h2>
+                        <p>La raison est assez simple: manque de temps, de budget et de connaissances. Nous avons eu une période rush dans l'obejctif de livrer un site fonctionnel, nous avons du prioriser certains aspects du site.</p>
+                        <br>
+                        <a href="./faq/">Voir la FAQ complète</a>
+                    </div>
+                </div> 
+
             </div>
-            <div class="container" style="height: 35px;"></div>
+            <div class="container" style="height: 15px;"></div>
         </main>
         <footer class="footer">
-			<div class="noMargin item">Hosted By <a href="https://www.github.com/Kcraft059">Kcraft059</a></div>
-			<div class="container flex-column" style="flex: 0 1 200px;">
+            <div class="noMargin item">Hosted By <a href="https://www.github.com/Kcraft059">Kcraft059</a></div>
+            <div class="container flex-column" style="flex: 0 1 200px;">
                 <p class="noMargin item" style="flex: 0 1 auto;">No Copyright Ø - 2025</p>
                 <p class="noMargin item" style="flex: 0 1 auto;"><a href="./about-us/">About Us</a></p>
             </div>
-			<div class="noMargin item">Provided by the <i>FTNetwork™</i> distribution system</div>
+            <div class="noMargin item">Provided by the <i>FTNetwork™</i> distribution system</div>
         </footer>
     </body>
 </html>

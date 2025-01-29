@@ -30,7 +30,7 @@
 	/*outline: solid white 1px;*/
 }
 
-.header .item {
+.headeritem, .header .item {
 	display: flex ;
 	justify-content: space-between; 
 	align-items: center; 
@@ -46,18 +46,18 @@
 	/*outline: solid white 1px;*/
 }
 
-.header .item:hover {
+.headeritem:hover , .header .item:hover {
 	background-color: rgba(80,10,10,0.75);
 }
 
-.header .item svg {
+.headeritem svg,.header .item svg {
 	width: 20px;
 	height: 18px;
 	flex: 1 0 25px;
 	/*outline: solid white 1px;*/
 }
 
-.header .item p {
+.headeritem p, .header .item p {
 	font-size: 16px;
 	font-family: inherit;
 	margin: 0;
@@ -211,11 +211,11 @@ main {
 
 /* Dropdown menu elements */
 
-.header .dropmnitem {
-	padding: 0;
+.dropmnitem, .header .dropmnitem {
+	padding: 0px;
 }
 
-.header .dropmnitem:hover {
+.dropmnitem:hover {
 	border-radius: 9px 9px 0 0;
 }
 

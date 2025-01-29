@@ -1,4 +1,5 @@
 .header {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #202a2aa9;
 }
 
@@ -8,18 +9,17 @@
 }
 
 .header .title {
-    background-color: rgb(59, 50, 42);
+	background-color: rgb(59, 50, 42);
     color: rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
     font-style: none ;
 }
 
-.headeritem,.header .item {
-    font-family: Arial, Helvetica, sans-serif;
+.header .item {
     background-color: rgba(38, 36, 39, 0.75);
 }
 
-.headeritem:hover, .header .item:hover {
+.header .item:hover {
     background-color: rgba(147, 139, 93, 0.542);
 }
 
@@ -36,13 +36,13 @@ body {
 	background-color: rgba(20, 20, 20, 0.9); 
 }
 
-.paragraphbox {
+.container .paragraphbox {
     font-family: Georgia, 'Times New Roman', Times, serif;
 	box-shadow: 8px 8px 16px 0px rgba(101, 101, 101, 0.687);
     background-color: rgba(40, 40, 30, 0.9);
 }
 
-.infobox {
+.container .infobox {
 	box-shadow: 8px 8px 16px 0px rgba(101, 101, 101, 0.687);
 	background-color: rgba(40, 30, 30, 0.9);
 }
@@ -51,11 +51,11 @@ body {
     outline: solid white 1px;
 }*/
 
-.img {
+.container .img {
 	box-shadow: 8px 8px 16px 0px rgba(101, 101, 101, 0.687);
 }
 
-.img div {
+.container .img div {
 	background-color: rgba(30, 30, 30, 0.9); 
 }
 
