@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="color-scheme" content="light dark">
         <meta charset="utf-8">
-        <script type="text/javascript" src="../../ressources/lib/script.js"></script>
-		<link rel="stylesheet" href="../../ressources/lib/styles.css"/>
+        <script type="text/javascript" src="../../../ressources/lib/script.js"></script>
+		<link rel="stylesheet" href="../../../ressources/lib/styles.css"/>
 		<link rel="stylesheet" href="./pagestyle.css"/>
     </head>
     <body>
@@ -62,51 +62,52 @@
                 </div>
             </div>
             <div id="headerPlaceholder" class="container headerPlaceholder"></div> <!--Keep Space for header-->
-            <div class="container" style="height: 35px;"></div>
-            <div class="container flex-column">
-
-                <div class="container paragraphbox flex-column" style="margin-inline: 40px;">
-                    <h1 style="align-self: center;"><u>Qui sommes nous ?</u></h1>
-                    <h2>Nous sommes un petit groupe d'amis qui avaons eu cette idée de projet à l'ocassion d'un cours de SNT, et voici donc notre projet: ce site.</h2>
-                    <p>Chacun de nous a apporté une participation d'une grande aide au groupe et voilà le résultat de notre collaboration.</p>
+            <div class="container" style="height: 15px;"></div>
+            <div class="container flex-column" style="padding: 60px;">
+                <div class="container paragraphbox flex-column" style="align-items: center;">
+                    <h1><u>FAQ -  Foire aux questions</u></h1>
+                    <p class="noMargin">Trouvez la réponse aux questions les plus couramment posées</p>
                 </div>
-                <div class="container paragraphbox flex-row" style="margin-inline: 40px; flex-wrap: wrap;">
-                    <div class="container img" style="flex: 1 0 300px">
-                        <img src="../ressources/images/Aksil.png">
-                        <div>
-                            <p>[<strong>Aksil</strong>] - Redacteur en chef du contenu</p>
+                <div class="container paragraphbox flex-column" style="align-items: stretch;">
+                    <h1><u>Faq :</u></h1>
+                    <h2> -> Y'aura t'il une évolution du site ?</h2>
+                    <p>Oui le site est encore un début de projet qui voit le jours et nous serions trés heureux d'étendre notre liste de fruits.</p>
+                    <h2> -> L'interface évoluera t'elle ?</h2>
+                    <p>Peut-être, Peut-être pas… cela dépends de la motivation des équipe du groupe, pour le moment notre objectif est plus focalisé sur les informations du site.</p>
+                    <h2> -> Pourquoi n'y a t'il pas de sélecteur de période de pousse ?</h2>
+                    <p>La raison est assez simple: manque de temps, de budget et de connaissances. Nous avons eu une période rush dans l'obejctif de livrer un site fonctionnel, nous avons du prioriser certains aspects du site. <br>(Cela ne veux pas dire que ce n'est pas envisagé bien sur - d'ailleurs la partie concernée est déjà intégrée au html mais non affichée)</p>
+                    <div class="container paragraphbox flex-column">
+                        <p><u>Partie en question :</u></p>
+                        <pre style="color: antiquewhite;">&#60;div class="container item"&#62;
+    &#60;select name="seasonslct" id="seasonslctor"&#62;
+        &#60;option&#62;Période de Pousse&#60;/option&#62;
+        &#60;optgroup label="Saison"&#62;
+            &#60;option value="summer"&#62;Été&#60;/option&#62;
+            &#60;option value="spring"&#62;Printemps&#60;/option&#62;
+            &#60;option value="autumn"&#62;Automne&#60;/option&#62;
+            &#60;option value="winter"&#62;Hiver&#60;/option&#62;
+        &#60;/optgroup&#62;
+        &#60;optgroup label="Toute saisons"&#62;
+            &#60;option value="all"&#62;Toute Saisons&#60;/option&#62;
+        &#60;/optgroup&#62;
+    &#60;/select&#62;
+&#60;/div&#62;</pre>
                         </div>
+                        <h2>Le site sera t'il toujours disponible ?</h2>
+                        <p>Malheuresement ce n'est pas sûr, mais je (Camille) vais faire de mon mieux pour le maintenir, par contre le site reste <a href="https://www.github.com/Kcraft059/web-pages">open source</a>, vous pouvez ainsi décider de le copier localement pout le faire tourner vous-même.</p>
+                        <h2>Pourquoi le site est-il un mix d'anglais et de français ?</h2>
+                        <p>Une simple explication j'ai (Camille) tendance à coder en Anglais, ainsi cela se répercute sur lme contenu du site, je prévois de faire les modification nécéssaires dans le futur.</p>
+                        <h2>Combien de temps a été investi dans ce site ?</h2>
+                        <p>Probablement trop.</p>
                     </div>
-                    <div class="container img" style="flex: 1 0 300px">
-                        <img src="../ressources/images/Petros.png">
-                        <div>
-                            <p>[<strong>Pierre</strong>] - Fondateur du site et de son concept</p>
-                        </div>
-                    </div>
-                    <div class="container img" style="flex: 1 0 300px">
-                        <img src="../ressources/images/Benjamin.png">
-                        <div>
-                            <p>[<strong>Benjamin</strong>] - Rédacteur du journal de bord et organisateur</p>
-                        </div>
-                    </div>
-                    <div class="container img" style="flex: 1 0 300px">
-                        <img src="../ressources/images/Camille.png">
-                        <div>
-                            <p>[<strong>Camille</strong> / Kcraft059] - Front-end dev & co-rédacteur du contenu</p>
-                        </div>
-                    </div>
-                </div>
             </div>
             <div class="container" style="height: 35px;"></div>
         </main>
-        <div class="container" style="width: 250px; background-color: rgba(30, 30, 30, 0.30);box-shadow: 5px 4px 50px 50px rgba(30,30,30,0.30);border-radius: 0 80px 0 0;">
-            <pre>	   .-'~~~-.<br>	 .'o  oOOOo`.<br>	:~~~-.oOo   o`.<br>	`. \ ~-.  oOOo.<br>	  `.; / ~.  OO:<br>	 .'  ;-- `.o.'<br>	,'  ; ~~--'~<br>	;  ;<br>_ \\;_\\//___\|/_ __  _    _<br><br><i>“As the reality slowly decays… „</i></pre>
-        </div>
         <footer class="footer">
 			<div class="noMargin item">Hosted By <a href="https://www.github.com/Kcraft059">Kcraft059</a></div>
 			<div class="container flex-column" style="flex: 0 1 200px;">
                 <p class="noMargin item" style="flex: 0 1 auto;">No Copyright Ø - 2025</p>
-                <p class="noMargin item" style="flex: 0 1 auto;"><a href="./">About Us</a></p>
+                <p class="noMargin item" style="flex: 0 1 auto;"><a href="../about-us/">About Us</a></p>
             </div>
 			<div class="noMargin item">Provided by the <i>FTNetwork™</i> distribution system</div>
         </footer>
